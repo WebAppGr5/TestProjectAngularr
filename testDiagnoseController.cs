@@ -345,7 +345,7 @@ namespace TestProjectAngular
             
             // Assert 
             Assert.AreEqual((int)HttpStatusCode.OK, resultat.StatusCode);
-            Assert.AreEqual("ok", resultat.Value);
+            Assert.AreEqual(1, resultat.Value);
 
         }
 
@@ -373,7 +373,7 @@ namespace TestProjectAngular
 
             // Assert 
             Assert.AreEqual((int)HttpStatusCode.OK, resultat.StatusCode);
-            Assert.AreEqual("ok", resultat.Value);
+            Assert.AreEqual(1, resultat.Value);
 
         }
         [TestMethod]
@@ -490,7 +490,7 @@ namespace TestProjectAngular
 
             // Assert 
             Assert.AreEqual((int)HttpStatusCode.OK, resultat.StatusCode);
-            Assert.AreEqual("ok", resultat.Value);
+            Assert.AreEqual(1, resultat.Value);
         }
 
         [TestMethod]
